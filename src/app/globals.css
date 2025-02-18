@@ -3,9 +3,23 @@
 @tailwind utilities;
 
 
+
+@font-face {
+  font-family: "overpass-reg" ;
+  src: url("../../public/fonts/Overpass/static/Overpass-Regular.ttf");
+}
+@font-face {
+  font-family: "overpass-semibold" ;
+  src: url("../../public/fonts/Overpass/static/Overpass-SemiBold.ttf");
+}
+@font-face {
+  font-family: "overpass-bold" ;
+  src: url("../../public/fonts/Overpass/static/Overpass-Bold.ttf");
+}
+
 body {
-  background: black;
-  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(216, 12%, 8%);
+  font-family: "overpass-reg", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;

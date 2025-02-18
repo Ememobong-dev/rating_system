@@ -15,6 +15,11 @@ export default {
         "darkBlue": "hsl(213, 19%, 18%)",
         "veryDarkBlue": "hsl(216, 12%, 8%)",
       },
+      fontFamily: {
+        "overpassReg": ["overpass-reg", "sans-serif"],
+        "overpassSemibold": ["overpass-semibold", "sans-serif"],
+        "overpassBold": ["overpass-bold", "sans-serif"],
+      }
     },
   },
   plugins: [],
